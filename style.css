@@ -21,7 +21,7 @@
 
 /* When the screen is between 600px and 800px, make 2 columns of 10. */
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 601px) and (max-width: 800px) {
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@
 
 /* When the screen is between 800px and 1000px, make 10 columns of 2. */
 
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 801px) and (max-width: 1000px) {
 
   .container {
     display: flex;
@@ -64,7 +64,7 @@
 
 /* When the screen is greater than 1000px, make 20 columns of 1. */
 @media (min-width: 1000px){
-  
+
   .container {
     display: flex;
   }
